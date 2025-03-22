@@ -1,10 +1,10 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Automating Healthcare Data Extraction and Insights with Azure AI and OpenAI
+This project utilizes Azure AI and OpenAI to automate the extraction of healthcare data and provide valuable insights. 
+It simplifies the analysis of intricate medical information, improving efficiency and precision for healthcare professionals. The goal is to enable quicker, data-informed decisions in medical contexts.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project leverages Azure AI and OpenAI to automate healthcare data extraction and generate actionable insights. It streamlines the process of analyzing complex medical data, such as patient records and research documents. By integrating advanced AI models, it enhances efficiency and accuracy in healthcare decision-making. The solution aims to support professionals with faster, data-driven outcomes.
 
 ## Features
 <!--List the features of the project as shown below-->

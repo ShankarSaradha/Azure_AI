@@ -1,59 +1,88 @@
-## Automating Healthcare Data Extraction and Insights with Azure AI and OpenAI
-This project utilizes Azure AI and OpenAI to automate the extraction of healthcare data and provide valuable insights. 
-It simplifies the analysis of intricate medical information, improving efficiency and precision for healthcare professionals. The goal is to enable quicker, data-informed decisions in medical contexts.
+# AUTOMATING HEALTHCARE DATA EXTRACTION AND INSIGHTS WITH  AZURE AI AND OPENAI
 
-## About
-<!--Detailed Description about the project-->
-This project leverages Azure AI and OpenAI to automate healthcare data extraction and generate actionable insights. It streamlines the process of analyzing complex medical data, such as patient records and research documents. By integrating advanced AI models, it enhances efficiency and accuracy in healthcare decision-making. The solution aims to support professionals with faster, data-driven outcomes.
+## Project Overview
+This project focusing on enhancing healthcare data management. The solution aims to automate the extraction and analysis of information from medical forms and prescriptions using Azure AI and OpenAI technologies. By converting paper forms into structured digital formats and visualizing data insights, healthcare providers can streamline patient record management, improve decision-making, and offer better patient care.
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+## Problem Statement
+Traditional data entry in healthcare is time-consuming, error-prone, and often results in fragmented data stored across multiple formats. This project addresses key issues such as:
+- **Manual Data Entry**: Inefficient and error-prone, leading to delays.
+- **Data Fragmentation**: Inconsistent records that hinder a unified patient view.
+- **Limited Access to Real-Time Insights**: Delays in accessing updated patient data, crucial for emergency decision-making.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+## Solution Approach
+Our solution automates medical data processing using Azure's OCR and AI capabilities for accurate extraction and structuring of data. Key features include:
+- **Data Extraction**: Using Azure Form Recognizer to capture and digitize information from forms.
+- **Summarization and Querying**: Implementing OpenAI's API for natural language processing, enabling healthcare providers to ask questions and receive instant summaries.
+- **Data Storage and Management**: Secure storage on Azure Blob Storage for accessible and organized record-keeping.
+- **Data Visualization**: A Power BI dashboard presents insights on patient demographics, treatment patterns, and hospital usage.
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+## Technologies Used
+- **Azure Form Recognizer**: For document intelligence and data extraction.
+- **Azure OpenAI**: For natural language summarization and querying.
+- **Azure Data Factory**: To manage large volumes of data efficiently.
+- **Azure Blob Storage**: Secure storage for patient records.
+- **Power BI**: Visualization of data insights for easy interpretation.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+## Project Workflow
+1. **Data Extraction with Azure Form Recognizer**: Medical forms and prescriptions are digitized, extracting patient information and treatment details.
+2. **Summarization & Querying Using OpenAI**: Healthcare providers can use natural language queries to retrieve specific information about a patient's medical history or treatment.
+3. **Data Storage and Accessibility**: Extracted data is securely stored in Azure Blob Storage, ensuring easy access and compliance with healthcare regulations.
+4. **Data Visualization with Power BI**: A comprehensive dashboard provides visual insights into patient demographics, trends, and usage patterns, aiding in data-driven decision-making.
 
+## Data FORM Recognizer WEB:
+## INPUT :![webpagehack](https://github.com/user-attachments/assets/34c4326f-dd82-4203-a1bf-066621d35681)
 
-## Output
+## OUTPUT :![webpagehack2](https://github.com/user-attachments/assets/0dcdeefa-16ce-4545-810a-802955faa247)
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+### [Power BI Dashboard Link](https://app.powerbi.com/links/lDA_RI28yW?ctid=ec326058-c61a-4a13-bb31-2c67177dfa01&pbi_source=linkShare&bookmarkGuid=aa71d255-60b3-4051-afff-e0c4cf470ee9) 
+This link provides access to the Power BI dashboard for viewing visual insights on patient trends and healthcare usage.
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+## Dashboard :
+## PAGE 1:![Screenshot 2024-10-31 222727](https://github.com/user-attachments/assets/5de379c8-e1cc-463e-9a01-1729bc83f6a0)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
-
-
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+## PAGE 2:![Screenshot 2024-10-31 222739](https://github.com/user-attachments/assets/92b860c2-3a0a-4211-a0b1-76841f532d94)
 
 
+## Installation and Setup
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/your-username/Document-Intelligence-Azure.git
+    cd Document-Intelligence-Azure
+    ```
+2. **Azure Setup**
+   - Set up an Azure account and configure the following services:
+     - **Azure Form Recognizer**
+     - **Azure OpenAI Services**
+     - **Azure Data Factory**
+     - **Azure Blob Storage**
+     - **Power BI Integration**
 
+3. **Environment Variables**
+   - Configure your environment with the necessary Azure API keys and endpoints.
 
+## Usage
+1. **Run the Document Extraction**
+   - Upload documents to Azure Blob Storage for processing.
+   - The Form Recognizer will extract data and save it to structured formats.
+   
+2. **Query Patient Data Using OpenAI**
+   - Use natural language queries to retrieve specific patient information.
+   
+3. **View Insights on Power BI Dashboard**
+   - Visualize extracted data and trends on the Power BI dashboard.
+
+## Future Enhancements
+- **Enhanced NLP for Summarization**: Improve query handling with additional OpenAI models.
+- **Scalability for Larger Healthcare Networks**: Expand the system to handle larger, multi-hospital data volumes.
+- **Integration with Additional Healthcare APIs**: Incorporate other healthcare data systems for a more comprehensive patient record system.
+
+## Contributors
+- Kanika B
+- Bhuvaneshwar V
+- Devesh S B
+- Harshavardhini M
+- Srijith R
+
+---
+
+This project demonstrates the potential of Azure Document Intelligence and OpenAI in addressing data automation challenges in healthcare, streamlining patient record management, and supporting data-driven healthcare decisions.
